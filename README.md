@@ -1,9 +1,13 @@
-# Transcriptome
-Basic files with transcriptome
-This project basically is for transcriptome of medusavirus.
+# Goal
+This project is a basic pipeline for transcriptomic analysis.
 
-## Quality Control 
-trimx?
+* Data type: pair-end mRNA reads;
+* Experiment design: time-course virus infection data without biological replicates
+* Pipeline: Preprocessing (fastqc - mapping) - quantification and normalization - cluster analysis - DEG test - GO and kegg analysis
+* Other: pathway and GO terms based heatmap
+
+## Preprocessing
+fastqc
 
 
 ## Mapping 
